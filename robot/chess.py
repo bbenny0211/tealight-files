@@ -7,7 +7,8 @@ from tealight.robot import (move,
                             right_side)
 
 move()
-turn(32)
+turn(1)
+
 
 
     
