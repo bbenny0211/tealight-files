@@ -8,5 +8,5 @@ def square(side):
 
 
 for i in range(0,8):
-  square(200)
+  square(10)
   move(200)
