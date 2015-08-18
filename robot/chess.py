@@ -6,8 +6,8 @@ from tealight.robot import (move,
                             left_side, 
                             right_side)
 
-move
+move()
 turn(1)
 
-
+distance
     
