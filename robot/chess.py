@@ -9,7 +9,7 @@ from tealight.robot import (move,
 move()
 turn(1)
 
-for n in range(1,32):
+for n in range(0,32):
     move()
 
     
