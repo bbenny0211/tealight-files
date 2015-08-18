@@ -12,3 +12,4 @@ def more_squares(side):
     move(side)
     
  
+square(20)
