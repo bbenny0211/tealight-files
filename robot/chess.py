@@ -7,7 +7,7 @@ from tealight.robot import (move,
                             right_side)
 
 move()
-turn(1)
+turn()
 
 for n in range(0,32):
     move()
