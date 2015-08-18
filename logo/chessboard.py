@@ -6,10 +6,6 @@ def square(side):
     move(side)
     turn(90)
 
-def more_squares(side):
-  for i in range(0,8):
-    square(side)
-    move(side)
-    
- 
-square(200)
+
+for i in range(0,8):
+  square(200)
