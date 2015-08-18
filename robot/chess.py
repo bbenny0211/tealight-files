@@ -7,13 +7,17 @@ from tealight.robot import (move,
                             right_side)
 
 
-
-for n in range(0,32):
+def eatvertical():
+  for n in range(0,32):
     move()
-
 turn(1)    
 
-for n in range(0,32):
+def eathorizontal():
+  for n in range(0,32):
     move()
     
 turn(1)
+
+
+eatvertical()
+eathorizontal()
