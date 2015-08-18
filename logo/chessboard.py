@@ -13,3 +13,6 @@ for j in range(0,8):
       move(30)
     move(-30*8)
     turn(90)
+    move(30)
+    
+   
