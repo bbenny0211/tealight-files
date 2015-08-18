@@ -23,4 +23,4 @@ for n in range(0,32):
     move()    
 turn(1)
 
-turn(-2)
+turn(-1)
