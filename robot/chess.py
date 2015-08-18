@@ -19,5 +19,5 @@ def eathorizontal():
 turn(1)
 
 
-eatvertical()
-eathorizontal()
+eatvertical(2)
+eathorizontal(3)
