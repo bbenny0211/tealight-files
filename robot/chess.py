@@ -9,6 +9,7 @@ from tealight.robot import (move,
 move()
 turn(1)
 
+distance = 10
 
 
     
