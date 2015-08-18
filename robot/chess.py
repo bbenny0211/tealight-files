@@ -6,4 +6,7 @@ from tealight.robot import (move,
                             left_side, 
                             right_side)
 
-# Add your code here
+def robot (side):
+    for i in range(0,3):
+    move(side)
+    turn(120)
