@@ -12,7 +12,7 @@ for j in range(0,8):
       square(30)
       move(30)
     move(-30*8)
-    turn(90)
+    turn(95)
     move(40)
     turn(-90)
     
