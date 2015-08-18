@@ -24,4 +24,4 @@ for n in range(0,32):
 turn(1)
 
 turn(1)
-move()
+move(32)
