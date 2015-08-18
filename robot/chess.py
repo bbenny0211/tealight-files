@@ -11,4 +11,4 @@ from tealight.robot import (move,
 for n in range(0,32):
     move()
 
-    
+turn(-1)    
