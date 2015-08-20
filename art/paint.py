@@ -13,7 +13,7 @@ rectangle(10,250,25,25)
 rectangle(10,275,25,25)
 
 
-rectangle(10,250,25,25)
+rectangle(10,300,25,25)
 
 
 rectangle(10,250,25,25)
