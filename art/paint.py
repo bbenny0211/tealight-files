@@ -6,7 +6,6 @@ sizes = range (3,9)
 
 def ToolBoxThickness (x,y,thicknesses,w,h):
   for t in thicknesses:
-    line_width(t)
     spot(x + w/2, y + h/2, t)
     rectangle(x,y,w,h)
     y = y + h
