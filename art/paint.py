@@ -10,10 +10,10 @@ def ToolBoxThickness (x,y,thicknesses,w,h):
     rectangle(x,y,w,h)
     y = y + h
     
-x = 150
-y =50
-w = 75
-h = 75
+x = 70
+y =15
+w = 55
+h = 55
 ToolBoxThickness(x,y,sizes,w,h)
     
 def thick_click(mx,my):
