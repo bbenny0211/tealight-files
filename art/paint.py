@@ -17,7 +17,7 @@ h = 25
 ToolBoxThickness(x,y,sizes,w,h)
     
 def handle_mousedown(mx,my):
-  if mx > x and mx < x+w and my > y +(h*len(sizes))
+  if mx > x and mx < x+w and my > y +(h*len(sizes)):
   RowNo = (my - y)/h
    
     thicknesses(sizes[RowNo])
