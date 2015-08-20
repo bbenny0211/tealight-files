@@ -10,7 +10,7 @@ def ToolBoxThickness (x,y,thicknesses,w,h):
     rectangle(x,y,w,h)
     y = y + h
     
-x = 200
+x = 175
 y =50
 w = 75
 h = 75
