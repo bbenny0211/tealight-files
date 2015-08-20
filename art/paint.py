@@ -10,7 +10,7 @@ box(250,300,100,100)
 rectangle(10,250,25,25)
 
 
-rectangle(10,300,25,25)
+rectangle(10,260,25,25)
 
 
 rectangle(10,250,25,25)
