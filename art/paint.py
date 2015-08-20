@@ -21,6 +21,6 @@ rectangle(10,325,25,25)
 spot(22,340,6)
 
 rectangle(10,350,25,25)
-
+spot(22,365,7)
 
 rectangle(10,375,25,25)
