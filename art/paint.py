@@ -27,4 +27,4 @@ def handle_mousedown(x,y):
   print ColNo, RowNo
   
   if ColNo == 0 and RowNo == 0:
-    print 
+    print 3
