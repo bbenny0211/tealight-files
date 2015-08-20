@@ -1,1 +1,1 @@
-import github.alexinder.draw.alexpaint
+import github.alexinder.art.alexpaint
