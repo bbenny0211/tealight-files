@@ -20,3 +20,9 @@ spot(22,365,7)
 
 rectangle(10,375,25,25)
 spot(22,390,8)
+
+def handle_mousedown(x,y):
+  ColNo = (x - 10)/25
+  RowNo = (y - 75)/25
+  
+  print ColNo, RowNo
