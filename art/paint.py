@@ -23,7 +23,7 @@ def handle_mousedown(mx,my):
     line_width(sizes[RowNo])
     print RowNo
     
-  return
+
 
   
    
