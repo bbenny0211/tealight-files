@@ -11,7 +11,7 @@ def ToolBoxThickness (x,y,thicknesses,w,h):
     y = y + h
     
 x = 200
-y =100
+y =50
 w = 75
 h = 75
 ToolBoxThickness(x,y,sizes,w,h)
