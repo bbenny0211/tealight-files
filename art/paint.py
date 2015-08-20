@@ -20,6 +20,13 @@ spot(22,415,7)
 rectangle(10,425,25,25)
 spot(22,440,8)
 
+def ToolBoxThickness (x,y,thickness,w,h):
+  for t in thickness:
+    thickness(t)
+    rectangle(x,y,w,h)
+    
+    
+
 def handle_mousedown(x,y):
   ColNo = (x - 10)/25
   RowNo = (y - 300)/25
