@@ -1,4 +1,4 @@
-from tealight.art import (color,rectangle, line, spot, circle, box, image, text, background)
+from tealight.art import (color,rectangle, line, line_width, spot, circle, box, image, text, background)
 
 color("black")
 
@@ -16,21 +16,17 @@ w = 25
 h = 25
 ToolBoxThickness(x,y,sizes,w,h)
     
-def handle_mousedown(x,y):
-  ColNo = (x - 10)/25
-  RowNo = (y - 300)/25
+def handle_mousedown(mx,my):
+  if mx > x and mx < x+w and my > y +(h*len(sizes))
+  RowNo = (my - y)/h
+   
+    thicknesses(sizes[RowNo])
+    print RowNo
+    
+  return
+
   
-  print ColNo, RowNo
+   
   
-  if ColNo == 0 and RowNo == 0:
-    print 3
-  elif ColNo == 0 and RowNo == 1:
-    print 4
-  if ColNo == 0 and RowNo == 2:
-    print 5
-  elif ColNo == 0 and RowNo == 3:
-    print 6 
-  if ColNo == 0 and RowNo == 4:
-    print 7
-  elif ColNo == 0 and RowNo == 5:
-    print 8 
+  
+  
