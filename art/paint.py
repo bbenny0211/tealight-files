@@ -24,11 +24,11 @@ sizes = [3,4,5,6,7,8]
 
 def ToolBoxThickness (x,y,thicknesses,w,h):
   for t in thicknesses:
-    spot(x,y,t)
+    spot(x + w/2, y + h/2, t)
     rectangle(x,y,w,h)
     y = y + h
     
-x = 300
+x = 200
 y =310
 w = 25
 h = 25
