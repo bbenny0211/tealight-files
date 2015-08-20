@@ -20,7 +20,7 @@ spot(22,415,7)
 rectangle(10,425,25,25)
 spot(22,440,8)
 
-sizes = [3,4,5,6,7,8]
+sizes = range (3,8)
 
 def ToolBoxThickness (x,y,thicknesses,w,h):
   for t in thicknesses:
