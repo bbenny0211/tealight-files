@@ -1,1 +1,1 @@
-print "A new file!"
+import github.alexinder.draw.alexpaint
