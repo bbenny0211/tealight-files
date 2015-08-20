@@ -22,9 +22,9 @@ spot(22,440,8)
 
 def handle_mousedown(x,y):
   ColNo = (x - 10)/25
-  RowNo = (y - 75)/25
+  RowNo = (y - 300)/25
   
   print ColNo, RowNo
   
-  if ColNo == 0 and RowNo == 7:
+  if ColNo == 0 and RowNo == 0:
     print 
