@@ -2,7 +2,7 @@ from tealight.art import (color,rectangle, line, line_width, spot, circle, box, 
 
 color("black")
 
-sizes = range (3,39,3)
+sizes = range (3,52,4)
 
 def ToolBoxThickness (x,y,thicknesses,w,h):
   for t in thicknesses:
