@@ -28,5 +28,13 @@ def handle_mousedown(x,y):
   
   if ColNo == 0 and RowNo == 0:
     print 3
-    
-    
+  elif ColNo == 0 and RowNo == 1:
+    print 4
+  if ColNo == 0 and RowNo == 2:
+    print 5
+  elif ColNo == 0 and RowNo == 3:
+    print 6 
+  if ColNo == 0 and RowNo == 4:
+    print 7
+  elif ColNo == 0 and RowNo == 5:
+    print 8 
